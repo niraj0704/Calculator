@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/solid3"
+    android:orientation="vertical"
+    tools:context=".Converter">
+
+    <ImageButton
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="70sp"
+        android:onClick="age_calci"
+        android:src="@drawable/age"
+        android:background="@drawable/ic_launcher_foreground"
+        android:padding="5sp"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Age Calculator"/>
+
+    <ImageButton
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/temp"
+        android:onClick="temp_convert"
+        android:background="@drawable/ic_launcher_foreground"
+        android:padding="5sp"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Temprature Calculator"/>
+
+    <ImageButton
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/img_3"
+        android:background="@drawable/ic_launcher_foreground"
+        android:padding="5sp"
+        android:onClick="unit_convert"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Unit Calculator"/>
+
+</LinearLayout>

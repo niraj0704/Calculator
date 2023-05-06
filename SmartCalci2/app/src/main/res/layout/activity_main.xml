@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/solid4">
+
+    <ImageButton
+        android:id="@+id/cal"
+        android:layout_width="170sp"
+        android:layout_height="170sp"
+        android:layout_centerHorizontal="true"
+        android:padding="2sp"
+        android:layout_marginTop="120sp"
+        android:onClick="calculator"
+        android:src="@drawable/img"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Calculator"/>
+
+    <ImageButton
+        android:id="@+id/con"
+        android:layout_width="170sp"
+        android:layout_height="170sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cal"
+        android:layout_marginTop="100sp"
+        android:onClick="converter"
+        android:padding="2sp"
+        android:src="@drawable/img_2"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/con"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Converter"/>
+
+
+
+</RelativeLayout>

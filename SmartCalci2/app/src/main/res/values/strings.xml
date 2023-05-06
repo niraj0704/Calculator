@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SmartCalci</string>
+    <string-array name="units">
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Meters</item>
+        <item>Feet</item>
+        <item>Centimeters</item>
+        <item>Inches</item>
+        <item>Kilograms</item>
+        <item>Pounds</item>
+        <item>Grams</item>
+        <item>Ounces</item>
+        <item>Liters</item>
+        <item>Gallons</item>
+        <item>Milliliters</item>
+        <item>Fluid ounces</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+         </string-array>
+</resources>
